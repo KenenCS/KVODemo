@@ -15,7 +15,6 @@
 		6C6A98CF1F2825910030EA66 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6C6A98CD1F2825910030EA66 /* LaunchScreen.storyboard */; };
 		6C6A98DA1F2825920030EA66 /* TestDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C6A98D91F2825920030EA66 /* TestDemoTests.m */; };
 		6C6A98E51F2825920030EA66 /* TestDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C6A98E41F2825920030EA66 /* TestDemoUITests.m */; };
-		6C6A98F41F28263E0030EA66 /* myKVO.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C6A98F31F28263E0030EA66 /* myKVO.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,8 +51,6 @@
 		6C6A98E01F2825920030EA66 /* TestDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6C6A98E41F2825920030EA66 /* TestDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestDemoUITests.m; sourceTree = "<group>"; };
 		6C6A98E61F2825920030EA66 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		6C6A98F21F28263E0030EA66 /* myKVO.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = myKVO.h; sourceTree = "<group>"; };
-		6C6A98F31F28263E0030EA66 /* myKVO.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = myKVO.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,8 +103,6 @@
 			children = (
 				6C6A98C21F2825910030EA66 /* AppDelegate.h */,
 				6C6A98C31F2825910030EA66 /* AppDelegate.m */,
-				6C6A98F21F28263E0030EA66 /* myKVO.h */,
-				6C6A98F31F28263E0030EA66 /* myKVO.m */,
 				6C6A98C51F2825910030EA66 /* ViewController.h */,
 				6C6A98C61F2825910030EA66 /* ViewController.m */,
 				6C6A98C81F2825910030EA66 /* Main.storyboard */,
@@ -278,7 +273,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6C6A98F41F28263E0030EA66 /* myKVO.m in Sources */,
 				6C6A98C71F2825910030EA66 /* ViewController.m in Sources */,
 				6C6A98C41F2825910030EA66 /* AppDelegate.m in Sources */,
 				6C6A98C11F2825910030EA66 /* main.m in Sources */,
